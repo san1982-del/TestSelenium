@@ -1,0 +1,13 @@
+﻿// Lambda: defines an anonymous function
+Action<string> print = (message) => Console.WriteLine(message);
+or
+// Switch Expression: maps input to output
+var result = input switch
+{
+    "A" => "Apple",
+    "B" => "Banana",
+    _ => "Unknown" // ^ underscore (_) is the "default" case - matches anything not listed above
+};
+
+"BMW" => bmwBrandLink,      // If brandName is "BMW", assign bmwBrandLink
+**********************************************************************

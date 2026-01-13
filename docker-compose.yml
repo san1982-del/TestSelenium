@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  selenium-hub:
+    image: selenium/hub:latest
+    container_name: selenium-hub
+    ports:
+      - "4444:4444"
+      - "4442:4442"
+      - "4443:4443"
+    environment:
+      - SE_SESSION_REQUEST_TIMEOUT=300
+      - SE_NODE_SESSION_TIMEOUT=300
+      - SE_SESSION_RETRY_INTERVAL=5
+    networks:
+      - selenium-grid
+
+  chrome-node:
+    image: selenium/node-chrome:latest
+    container_name: chrome-node
+    depends_on:
+      - selenium-hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=5
+      - SE_NODE_SESSION_TIMEOUT=300
+    shm_size: '2gb'
+    networks:
+      - selenium-grid
+    ports:
+      - "5900:5900"
+
+  firefox-node:
+    image: selenium/node-firefox:latest
+    container_name: firefox-node
+    depends_on:
+      - selenium-hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - SE_NODE_MAX_SESSIONS=5
+      - SE_NODE_SESSION_TIMEOUT=300
+    shm_size: '2gb'
+    networks:
+      - selenium-grid
+    ports:
+      - "5901:5900"
+
+networks:
+  selenium-grid:
+    driver: bridge

@@ -1,0 +1,3 @@
+2026-01-13 00:23:36,273 [NUnit.Fw.ParallelWorker#1] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Started
+2026-01-13 00:23:40,966 [NUnit.Fw.ParallelWorker#1] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Completed
+2026-01-13 00:23:52,703 [NUnit.Fw.ParallelWorker#3] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution Completed
