@@ -14,7 +14,7 @@ namespace SeleniumFrameworkCSharp.Testcases
     internal class FindUsedCarTest : baseTest   
     {
         [Parallelizable(ParallelScope.Children)]
-        [Test, TestCaseSource(nameof(GetTestData)), Category("smoke"), Retry(2)]
+        [Test, TestCaseSource(nameof(GetTestData)), Category("demo"), Retry(2)]
         public void TestFindUsedCar(string browser, string runmode, string carbrand, string cartitle, string carname, string searchtype)
         {
             // Check if test should run
