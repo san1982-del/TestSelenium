@@ -74,6 +74,7 @@ pipeline {
                     if exist SeleniumFrameworkCSharp\\Reports rmdir /s /q SeleniumFrameworkCSharp\\Reports
                     if exist SeleniumFrameworkCSharp\\Screenshots rmdir /s /q SeleniumFrameworkCSharp\\Screenshots
                     if exist SeleniumFrameworkCSharp\\logs rmdir /s /q SeleniumFrameworkCSharp\\logs
+                    if exist SeleniumFrameworkCSharp\\TestResults rmdir /s /q SeleniumFrameworkCSharp\\TestResults
                     
                     mkdir SeleniumFrameworkCSharp\\Reports
                     mkdir SeleniumFrameworkCSharp\\Screenshots
@@ -181,6 +182,7 @@ pipeline {
                 script {
                     try {
                         mstest testResultsFile: '**/test-results-*.trx'
+
                         echo "✓ Test results published"
                     } catch (Exception e) {
                         echo "Note: MSTest plugin not available, skipping test result publishing"
