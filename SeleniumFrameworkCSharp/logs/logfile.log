@@ -1,3 +1,30 @@
 2026-01-13 00:23:36,273 [NUnit.Fw.ParallelWorker#1] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Started
 2026-01-13 00:23:40,966 [NUnit.Fw.ParallelWorker#1] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Completed
 2026-01-13 00:23:52,703 [NUnit.Fw.ParallelWorker#3] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution Completed
+2026-01-13 01:32:37,248 [NUnit.Fw.ParallelWorker#3] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Started
+2026-01-13 01:32:37,248 [NUnit.Fw.ParallelWorker#4] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Started
+2026-01-13 01:32:37,248 [NUnit.Fw.ParallelWorker#2] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Started
+2026-01-13 01:32:37,248 [NUnit.Fw.ParallelWorker#1] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Started
+2026-01-13 01:32:37,583 [NUnit.Fw.ParallelWorker#2] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Completed
+2026-01-13 01:32:37,583 [NUnit.Fw.ParallelWorker#3] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Completed
+2026-01-13 01:32:37,596 [NUnit.Fw.ParallelWorker#2] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Started
+2026-01-13 01:32:37,596 [NUnit.Fw.ParallelWorker#3] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Started
+2026-01-13 01:32:37,597 [NUnit.Fw.ParallelWorker#3] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Completed
+2026-01-13 01:32:37,598 [NUnit.Fw.ParallelWorker#2] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Completed
+2026-01-13 01:32:37,598 [NUnit.Fw.ParallelWorker#3] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Started
+2026-01-13 01:32:37,599 [NUnit.Fw.ParallelWorker#3] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Completed
+2026-01-13 01:32:37,599 [NUnit.Fw.ParallelWorker#2] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Started
+2026-01-13 01:32:37,600 [NUnit.Fw.ParallelWorker#2] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Completed
+2026-01-13 01:32:37,600 [NUnit.Fw.ParallelWorker#3] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Started
+2026-01-13 01:32:37,601 [NUnit.Fw.ParallelWorker#2] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Started
+2026-01-13 01:32:37,602 [NUnit.Fw.ParallelWorker#2] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Completed
+2026-01-13 01:32:37,602 [NUnit.Fw.ParallelWorker#2] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Started
+2026-01-13 01:32:37,603 [NUnit.Fw.ParallelWorker#2] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Completed
+2026-01-13 01:32:37,603 [NUnit.Fw.ParallelWorker#2] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Started
+2026-01-13 01:32:37,604 [NUnit.Fw.ParallelWorker#2] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Completed
+2026-01-13 01:32:38,770 [NUnit.Fw.ParallelWorker#1] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Fetched expected data from database
+2026-01-13 01:32:42,231 [NUnit.Fw.ParallelWorker#4] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Completed
+2026-01-13 01:32:42,231 [NUnit.Fw.ParallelWorker#3] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Completed
+2026-01-13 01:32:42,881 [NUnit.Fw.ParallelWorker#1] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution is Completed
+2026-01-13 01:32:59,680 [NUnit.Fw.ParallelWorker#2] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution Completed
+2026-01-13 01:32:59,843 [NUnit.Fw.ParallelWorker#4] INFO  SeleniumFrameworkCSharp.BaseTest.baseTest - Test Execution Completed
