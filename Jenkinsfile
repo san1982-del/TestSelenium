@@ -71,12 +71,12 @@ pipeline {
                 echo '========================================='
                 
                 bat '''
-                    if exist SeleniumFrameworkCSharp\\reports rmdir /s /q SeleniumFrameworkCSharp\\reports
-                    if exist SeleniumFrameworkCSharp\\screenshots rmdir /s /q SeleniumFrameworkCSharp\\screenshots
+                    if exist SeleniumFrameworkCSharp\\Reports rmdir /s /q SeleniumFrameworkCSharp\\Reports
+                    if exist SeleniumFrameworkCSharp\\Screenshots rmdir /s /q SeleniumFrameworkCSharp\\Screenshots
                     if exist SeleniumFrameworkCSharp\\logs rmdir /s /q SeleniumFrameworkCSharp\\logs
                     
-                    mkdir SeleniumFrameworkCSharp\\reports
-                    mkdir SeleniumFrameworkCSharp\\screenshots
+                    mkdir SeleniumFrameworkCSharp\\Reports
+                    mkdir SeleniumFrameworkCSharp\\Screenshots
                     mkdir SeleniumFrameworkCSharp\\logs
                     
                     echo ✓ Workspace cleaned
