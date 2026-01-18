@@ -23,8 +23,8 @@ pipeline {
         DOTNET_CLI_HOME = "${WORKSPACE}"
         SOLUTION_PATH = 'SeleniumFrameworkCSharp.sln'
         PROJECT_PATH = 'SeleniumFrameworkCSharp/SeleniumFrameworkCSharp.csproj'
-        REPORT_PATH = 'SeleniumFrameworkCSharp/reports'
-        SCREENSHOT_PATH = 'SeleniumFrameworkCSharp/screenshots'
+        REPORT_PATH = 'SeleniumFrameworkCSharp/Reports'
+        SCREENSHOT_PATH = 'SeleniumFrameworkCSharp/Screenshots'
         LOG_PATH = 'SeleniumFrameworkCSharp/logs'
     }
     
