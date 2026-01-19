@@ -26,6 +26,7 @@ pipeline {
         REPORT_PATH = 'SeleniumFrameworkCSharp/Reports'
         SCREENSHOT_PATH = 'SeleniumFrameworkCSharp/Screenshots'
         LOG_PATH = 'SeleniumFrameworkCSharp/logs'
+        TESTRESULT_PATH = 'SeleniumFrameworkCSharp/TestResults'
     }
     
     stages {
@@ -213,7 +214,7 @@ pipeline {
                 archiveArtifacts artifacts: "${REPORT_PATH}/**/*", allowEmptyArchive: true
                 archiveArtifacts artifacts: "${SCREENSHOT_PATH}/**/*", allowEmptyArchive: true
                 archiveArtifacts artifacts: "${LOG_PATH}/**/*", allowEmptyArchive: true
-                archiveArtifacts artifacts: '**/test-results-*.trx', allowEmptyArchive: true
+                archiveArtifacts artifacts: "${TESTRESULT_PATH}/**/test-results-*.trx", allowEmptyArchive: true
                 
                 echo "✓ Artifacts archived"
             }
